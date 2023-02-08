@@ -2,6 +2,7 @@
 public class Articulo {
     private String nombre;
     private double precio;
+    private int index;
 
     public Articulo (String nombre, double precio) {
         this.nombre = nombre;
@@ -22,5 +23,14 @@ public class Articulo {
     
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+
+    
+    public int getIndex() {
+        return index;
+    }
+
+    public void setIndex(int index) {
+        this.index = index;
     }
 }

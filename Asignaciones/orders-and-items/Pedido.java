@@ -42,7 +42,8 @@ public class Pedido {
     }
 
     public void display(){
-        System.out.println("Nombre Cliente " + this.nombre);
+        System.out.println("Detalles de su pedido");
+        System.out.println("Nombre cliente: " + this.nombre);
         for(int i = 0; i < this.articulos.size(); i ++){
             System.out.println(this.articulos.get(i).getNombre() +": "+ this.articulos.get(i).getPrecio());
         };
