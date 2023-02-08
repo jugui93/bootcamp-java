@@ -1,0 +1,7 @@
+1. ["Paula", "Smith", "Calle Principal 1234", "St. Louis", "MO", 12345];
+2. ["brócoli", "helado", "croqueta de papa"];
+3. ["Bambi", "Beetlejuice", "Toy Story", "Zoro"];
+
+
+
+
